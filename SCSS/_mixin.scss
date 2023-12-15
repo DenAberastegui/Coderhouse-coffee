@@ -1,0 +1,43 @@
+/* MIXINS */
+
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin fontsize-margin ($fontsize, $margin) {
+    font-size: $fontsize; 
+    margin: $margin; 
+}
+
+@mixin fontsize-marginleft {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+@mixin header-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+@mixin display-justcenter { 
+    display: flex; 
+    justify-content: center; 
+} 
+
+@mixin fontsize-margin ($fontsize, $margin) {
+    font-size: $fontsize; 
+    margin: $margin; 
+}
+
+@mixin fontsize-padding ($fontsize, $padding) {
+    font-size: $fontsize; 
+    padding: $padding; 
+}
+
+@mixin fontsize-marginleft {
+    font-size: 15px;
+    margin-left: 20px;
+}
