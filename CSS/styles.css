@@ -1,5 +1,3 @@
-/* MIXINS */
-/* VARIABLES */
 /* HEADER */
 header {
   display: flex;
@@ -91,14 +89,14 @@ body {
   }
 }
 .sn-p {
-  font-size: 17px;
+  font-size: 15px;
   margin: 15px;
 }
 
 @media only screen and (max-width: 500px) {
   .sn-p {
     font-size: 12px;
-    margin: 15px;
+    margin: 20px;
   }
 }
 .grid-container-1 {
